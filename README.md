@@ -33,7 +33,7 @@ A simple weather application built with React that fetches real-time weather dat
 
 4. **Start the development server**
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## Usage
@@ -45,25 +45,8 @@ A simple weather application built with React that fetches real-time weather dat
 This app uses the OpenWeatherMap API to fetch weather data. To get an API key:
 - Sign up at [OpenWeatherMap](https://openweathermap.org/)
 - Generate a free API key
-- Add it to your `.env` file as shown above
-
-## Screenshots
-_Add screenshots here to showcase the UI_
-
-## Deployment
-To deploy the app on GitHub Pages:
-```sh
-npm run build
-npm install -g gh-pages
-npm run deploy
-```
-
-## Contributing
-Feel free to fork this repository and submit pull requests with improvements!
-
-## License
-This project is licensed under the MIT License.
-
+- Add it to your `.env` file or replace it to API_KEY
+  
 ---
 Made with ❤️ by [Mehul](https://github.com/Mehuull)
 
