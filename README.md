@@ -36,7 +36,7 @@ A simple weather application built with React that fetches real-time weather dat
    npm run dev
    ```
 
-##Screenshots
+## Screenshots
 ![UI Screenshot](https://github.com/Mehuull/Wheather-app/blob/main/wheatherapp.png)
 
 
