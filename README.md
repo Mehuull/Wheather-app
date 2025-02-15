@@ -26,7 +26,7 @@ A simple weather application built with React that fetches real-time weather dat
    npm install
    ```
 
-3. **Replace the `API_KEY` in the project and add your own OpenWeatherMap API key:
+3. **Replace the `API_KEY` in the project and add your own OpenWeatherMap API key:**
    ```sh
    API_KEY=your_api_key_here
    ```
