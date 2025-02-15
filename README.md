@@ -52,5 +52,5 @@ This app uses the OpenWeatherMap API to fetch weather data. To get an API key:
 - Add it to your `.env` file or replace it to API_KEY
   
 ---
-Made with ❤️ by [Mehul](https://github.com/Mehuull)
+Made with ❤️ by [Mehul](https://www.linkedin.com/in/mehul-rana-904b54340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
