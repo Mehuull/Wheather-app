@@ -1,13 +1,69 @@
-<<<<<<< HEAD
-# Wheather-app
-wheather app using react 
-=======
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with React that fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/).
 
-Currently, two official plugins are available:
+## Features
+- Fetches current weather data for any city
+- Displays temperature, humidity, and weather conditions
+- User-friendly UI with search functionality
+- Responsive design for mobile and desktop users
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 564d0e4 (Initial commit)
+## Technologies Used
+- React.js
+- OpenWeatherMap API
+- CSS (for styling)
+
+## Installation
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/Mehuull/Wheather-app.git
+   cd Wheather-app
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Create a `.env` file** in the project root and add your OpenWeatherMap API key:
+   ```sh
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```
+
+4. **Start the development server**
+   ```sh
+   npm start
+   ```
+
+## Usage
+1. Enter a city name in the search bar.
+2. View the current weather details including temperature, humidity, and conditions.
+3. Enjoy real-time weather updates!
+
+## API Integration
+This app uses the OpenWeatherMap API to fetch weather data. To get an API key:
+- Sign up at [OpenWeatherMap](https://openweathermap.org/)
+- Generate a free API key
+- Add it to your `.env` file as shown above
+
+## Screenshots
+_Add screenshots here to showcase the UI_
+
+## Deployment
+To deploy the app on GitHub Pages:
+```sh
+npm run build
+npm install -g gh-pages
+npm run deploy
+```
+
+## Contributing
+Feel free to fork this repository and submit pull requests with improvements!
+
+## License
+This project is licensed under the MIT License.
+
+---
+Made with ❤️ by [Mehul](https://github.com/Mehuull)
+
