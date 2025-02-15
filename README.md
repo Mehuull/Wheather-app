@@ -36,6 +36,10 @@ A simple weather application built with React that fetches real-time weather dat
    npm run dev
    ```
 
+##Screenshots
+
+
+
 ## Usage
 1. Enter a city name in the search bar.
 2. View the current weather details including temperature, humidity, and conditions.
