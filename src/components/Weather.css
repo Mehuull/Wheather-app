@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.weather-container {
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    padding: 1.5rem;
+    background: #f0f9f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'poppins', sans-serif;
+  }
+
+  .city {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .city input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'poppins',arial;
+    font-size: 1rem;
+  }
+  
+  .city .search-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: auto;
+    font-size: 1.5rem;
+  }
+  
+  .city .search-btn:hover {
+    background: #0056b3;
+  }
+  .error-message {
+    color: #ff4d4f;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+
+  .weather-img img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-description {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .weather-temp h3 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #333;
+    font-family: 'roboto',arial;
+  }
+  
+  .weather-city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .weather-city .location {
+    margin-right: 8px;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .weather-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .weather-stats .wind,
+  .weather-stats .humidity {
+    text-align: center;
+  }
+  
+  .weather-stats .icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .wind-speed,
+  .humidity-percent {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .wind-heading,
+  .humidity-heading {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
